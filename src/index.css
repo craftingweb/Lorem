@@ -252,3 +252,44 @@ ul {
   margin: 0 auto;
   margin-top: 1rem;
 }
+
+.section-center {
+  width: 80vw;
+  max-width: 40rem;
+  margin: 10rem auto;
+}
+.section-center h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: var(--letterSpacing);
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.lorem-form label {
+  font-size: 1.25rem;
+}
+
+.lorem-form input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  border-radius: var(--borderRadius);
+  border-color: transparent;
+  background: var(--grey-300);
+  font-size: 1.25rem;
+}
+
+.lorem-form .btn {
+  align-self: stretch;
+}
+
+.lorem-text p {
+  line-height: 2;
+  margin-bottom: 2rem;
+}
